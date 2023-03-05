@@ -1,0 +1,12 @@
+server:
+  port: 9090
+spring:
+  datasource:
+    driver-class-name: org.mariadb.jdbc.Driver
+    url: jdbc:mariadb://127.0.0.1:3306/tavi?useSSL=false&serverTimezone=Asia/Seoul&characterEncoding=utf8
+    username: root
+    password: 1234
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
